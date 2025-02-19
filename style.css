@@ -1,0 +1,116 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(44, 170, 170);
+    background-image: url(images/bg-pattern-top.svg) , url(images/bg-pattern-bottom.svg);
+    background-size: cover;
+}   
+
+* {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.container {
+    background-color: white;
+    width: 664px;
+    height: 763px;
+    border-radius: 25px;
+    margin: auto;
+    position: relative;
+    top: 640px;
+}
+.card {
+    height: 247px;
+    width: 664px;
+    border-radius: 10px;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo {
+    position: relative;
+    top: -79px;
+    left: 248px;
+    border-radius: 50%;
+    border: 10px solid white;
+    width: 143px;
+}
+.data {
+    text-align: center;
+    position: relative;
+    bottom: 59px;
+}
+.age {
+    position: relative;
+    bottom: 139px;
+    left: 159px;
+    font-size: 41px;
+}
+.country {
+    position: relative;
+    bottom: 171px;
+    left: 10px;
+    font-size: 30px;
+}
+.name {
+    font-size: 40px;
+    position: relative;
+    bottom: 50px;
+    right: 15px;
+}
+.detales {
+    display: grid;
+    grid-template-columns: 29% 195px 147px;
+    grid-template-rows: 74px 62px 53px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    bottom: 126px;
+    font-size: 27px;
+}
+.age , .country , .name-follower ,.name-likes ,.name-photo{
+    color: hsl(0, 0%, 59%);
+}
+
+.count-follower , .count-likes , .count-photos {
+    font-size: 40px;
+}
+.attribution {
+    display: none;
+}
+@media (max-width: 319px){
+    .container {
+        position: relative;
+        left: 10px;
+        width: 344px;
+        right: 20px;
+    }
+    .card {
+        width: 344px;
+    }
+    .photo {
+        position: relative;
+        left: 122px;
+    }
+}
+@media (max-width: 767px){
+    .container{
+        width: 450px;
+        position: relative;
+        left: 70px;
+        top: 320px;
+    }
+    .card{
+        width: 450px;
+        
+    }
+    .photo {
+        position: relative;
+        left: 170px;
+    }
+
+}
+
+
