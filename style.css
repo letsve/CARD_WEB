@@ -1,10 +1,8 @@
 body {
     box-sizing: border-box;
     background-color: rgb(44, 170, 170);
-    background-image: url(images/bg-pattern-top.svg) , url(images/bg-pattern-bottom.svg);
-    background-size: cover;
-}   
-
+    
+}
 * {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
@@ -12,17 +10,16 @@ body {
 }
 .container {
     background-color: white;
-    width: 664px;
-    height: 763px;
-    border-radius: 25px;
+    width: 500px;
+    height: 508px;
+    border-radius: 11px;
     margin: auto;
     position: relative;
-    top: 640px;
+    top: 50px;
 }
 .card {
-    height: 247px;
-    width: 664px;
-    border-radius: 10px;
+    height: 200px;
+    width: 500px;
 }
 
 .photos {
@@ -31,11 +28,10 @@ body {
 }
 .photo {
     position: relative;
-    top: -79px;
-    left: 248px;
+    top: -53px;
+    left: 200px;
     border-radius: 50%;
     border: 10px solid white;
-    width: 143px;
 }
 .data {
     text-align: center;
@@ -44,38 +40,34 @@ body {
 }
 .age {
     position: relative;
-    bottom: 139px;
-    left: 159px;
-    font-size: 41px;
+    bottom: 41px;
+    left: 90px;
+    font-size: 19px;
 }
 .country {
     position: relative;
-    bottom: 171px;
+    bottom: 50px;
     left: 10px;
-    font-size: 30px;
 }
 .name {
-    font-size: 40px;
-    position: relative;
-    bottom: 50px;
-    right: 15px;
+    font-size: 20px;
 }
 .detales {
     display: grid;
-    grid-template-columns: 29% 195px 147px;
-    grid-template-rows: 74px 62px 53px;
+    grid-template-columns: 25% 130px 126px;
+    grid-template-rows: 54px 58px 42px;
     justify-content: center;
     text-align: center;
     position: relative;
-    bottom: 126px;
-    font-size: 27px;
+    bottom: 77px;
+
 }
 .age , .country , .name-follower ,.name-likes ,.name-photo{
     color: hsl(0, 0%, 59%);
 }
 
 .count-follower , .count-likes , .count-photos {
-    font-size: 40px;
+    font-size: 30px;
 }
 .attribution {
     display: none;
